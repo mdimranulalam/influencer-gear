@@ -8,8 +8,143 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; 
 */
 
-/* Common CSS */
+/*-----------------------------
+    """ Common Styles """
+------------------------------*/
 *{
     margin: 0;
     padding: 0;
+}
+.container{
+    width: 100%;
+}
+/* CSS Custom Property */
+:root{
+    --color-primary: #3A3A3A;
+    --color-white: #FFFFFF;
+    --color-pink: #E02C6D;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-manrope: 'Manrope', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+
+/*-----------------------------
+    """ Header Styles """
+------------------------------*/
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title h1{
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--color-primary);
+    line-height: 36px;
+    font-feature-settings: 'liga' off;
+}
+
+/* Nav Styles */
+nav > ul{
+    width: 463px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color-primary);
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+}
+nav ul li:hover a{
+    color: var(--color-pink);
+    transition: 0.3s all ease;
+}
+.fa-search, .fa-shopping-cart{
+    font-size: 19px;
+    color: var(--color-primary);
+}
+nav ul li:hover .fa-search{
+    color: var(--color-pink);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+nav ul li:hover .fa-shopping-cart{
+    color: var(--color-pink);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+/*-----------------------------
+    """ Section - 1 Styles """
+------------------------------*/
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.section-1-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-title{
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px;
+    color: var(--color-primary);
+    margin-bottom: 16px;
+}
+.section-description{
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: var(--color-primary);
+    margin-bottom: 40px;
+}
+.main-button{
+    padding: 10px 24px;
+    background-color: var(--color-pink);
+    border-radius: 41px;
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+.main-button:hover{
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border: 3px solid var(--color-pink);
+    transition: 0.1s all ease;
+    padding: 7px 21px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+.section-1-right img{
+    width: 440px;
+    height: 414px;
 }
