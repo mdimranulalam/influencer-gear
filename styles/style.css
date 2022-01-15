@@ -146,6 +146,10 @@ nav ul li:hover .fa-shopping-cart{
 .fa-arrow-right{
     margin-left: 8px;
 }
+.main-button:hover > .fa-arrow-right{
+    transform: translate(5px);
+    transition: 1s all ease-out;
+}
 .section-1-right img{
     width: 440px;
     height: 414px;
@@ -176,6 +180,11 @@ nav ul li:hover .fa-shopping-cart{
 }
 .section-2-items img{
     width: 90px;
+}
+.section-2-items img:hover{
+    transform: scale(1.2);
+    transition: 1s all ease-out;
+    cursor: pointer;
 }
 .section-2-wrapper{
     width: 80%;
