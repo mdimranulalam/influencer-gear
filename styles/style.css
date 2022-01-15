@@ -332,3 +332,63 @@ nav ul li:hover .fa-shopping-cart{
     line-height: 26px;
     color: var(--color-primary);
 }
+/*-----------------------------
+    """ Footer Styles """
+------------------------------*/
+.footer{
+    background-color: #0A0826;
+    width: 100%;
+    height: 239px;
+    margin-top: 100px;
+}
+.footer-flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-wrapper{
+    width: 262px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+}
+.footer-title{
+    font-family: var(--font-poppins);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    font-feature-settings: 'liga' off;
+    color: var(--color-white);
+    text-align: center;
+    margin-bottom: 3px;
+}
+.footer-description{
+    font-family: var(--font-manrope);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+/* Social Icons */
+.social-icon{
+    display: flex;
+}
+.social-icon li{
+    list-style: none;
+    margin-right: 10px;
+    background-color: #aaaaaa34;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
+    font-size: 20px;
+    color:white
+}
