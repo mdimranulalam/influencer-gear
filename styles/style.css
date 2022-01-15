@@ -157,6 +157,7 @@ nav ul li:hover .fa-shopping-cart{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .section-2-wrapper{
     display: flex;
@@ -176,4 +177,17 @@ nav ul li:hover .fa-shopping-cart{
 }
 .section-2-wrapper{
     width: 80%;
+}
+
+/*-----------------------------
+    """ Section - 3 Styles """
+------------------------------*/
+.section-3-title > h2{
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 60px;
 }
