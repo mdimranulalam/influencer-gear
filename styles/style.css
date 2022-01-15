@@ -148,3 +148,32 @@ nav ul li:hover .fa-shopping-cart{
     width: 440px;
     height: 414px;
 }
+
+
+/*-----------------------------
+    """ Section - 2 Styles """
+------------------------------*/
+.section-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.section-2-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00000011;
+}
+.section-2-items{
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-2-items img{
+    width: 90px;
+}
+.section-2-wrapper{
+    width: 80%;
+}
