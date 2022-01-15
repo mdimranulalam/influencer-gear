@@ -191,19 +191,20 @@ nav ul li:hover .fa-shopping-cart{
 .section-3-wrapper{
     width: 1047px;
 }
-.section-3-title > h2{
+.section-3-title > h2 {
     font-family: var(--font-poppins);
     font-weight: 600;
-    font-size: 28px;
+    font-size: 36px;
     line-height: 70px;
     color: var(--color-primary);
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 .section-3-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px 30px;
+    margin-bottom: 50px;
 }
 .product{
     width: 329px;
@@ -275,4 +276,20 @@ nav ul li:hover .fa-shopping-cart{
     letter-spacing: 0.018em;
     color: #787885;
     margin-top: 6px;
+}
+/* See more Link */
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+}
+.see-more a{
+    text-decoration: none;
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    line-height: 24px;
+    color: var(--color-pink);
+}
+.see-more:hover>a>.fa-arrow-right{
+    transform: translate(10px);
+    transition: 1s all ease;
 }
