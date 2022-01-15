@@ -319,11 +319,20 @@ nav ul li:hover .fa-shopping-cart{
     justify-content: space-evenly;
     padding: 70px 70px;
 }
+.counter-item{
+    text-align: center;
+}
 .counter-item h2{
     font-family: var(--font-roboto);
     font-size: 40px;
     color: var(--color-primary);
     padding-bottom: 10px;
+    display: inline;
+}
+.counter-item span{
+    font-family: var(--font-roboto);
+    font-size: 40px;
+    color: var(--color-primary);
 }
 .counter-item p{
     font-family: var(--font-poppins);
