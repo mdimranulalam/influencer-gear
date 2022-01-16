@@ -1,13 +1,5 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap');
-
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; 
-*/
-
 /*-----------------------------
     """ Common Styles """
 ------------------------------*/
@@ -30,8 +22,6 @@ font-family: 'Roboto', sans-serif;
     --font-manrope: 'Manrope', sans-serif;
     --font-roboto: 'Roboto', sans-serif;
 }
-
-
 /*-----------------------------
     """ Header Styles """
 ------------------------------*/
@@ -46,6 +36,7 @@ font-family: 'Roboto', sans-serif;
     justify-content: space-between;
     align-items: center;
 }
+
 .header-title h1{
     font-family: var(--font-poppins);
     font-weight: bold;
@@ -54,7 +45,6 @@ font-family: 'Roboto', sans-serif;
     line-height: 36px;
     font-feature-settings: 'liga' off;
 }
-
 /* Nav Styles */
 nav > ul{
     width: 463px;
@@ -401,3 +391,5 @@ nav ul li:hover .fa-shopping-cart{
     font-size: 20px;
     color:white
 }
+
+

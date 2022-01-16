@@ -1,0 +1,155 @@
+/*-----------------------------
+    """ Media Queary """
+------------------------------*/
+
+/* Mobile or small Device */
+@media only screen and (max-width: 688px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 35px;
+        
+    }
+    .header-wrapper{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-title h1{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    nav{
+        display: none;
+    }
+    /*-----------------------------
+    """ Section - 2 Styles """
+    ------------------------------*/
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 22px;
+    }
+    .section-1-wrapper{
+        width: 670px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-1-left{
+        order: 2;
+    }
+    .section-1-right{
+        order: 1;
+    }
+    .section-title{
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .section-description{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .main-button{
+        margin: 0 auto;
+    }
+    .section-1-right img{
+        width: 257px;
+        height: 235px;
+    }
+
+    /* Section - 2 */
+    .section-2{
+        display: none;
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    .section-2-wrapper{
+        width: 100%;
+    }
+    /* .section-2-items{
+        width: 275px;
+        height: 61px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } */
+    .section-2-items img{
+        width: 65px;
+    }
+
+
+
+
+    /*-----------------------------
+        """ Section - 3 Styles """
+    ------------------------------*/
+    .section-3{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .section-3-wrapper{
+        width: 329px;
+    }
+    .section-3-title > h2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .section-3-products{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px 0;
+        margin-bottom: 32px;
+    }
+
+    /*-----------------------------
+        """ Section - 4 Styles """
+    ------------------------------*/
+    .section-4{
+        margin-top: 50px;
+    }
+    .section-4-wrapper{
+        width: 50%;
+    }
+    .counter{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 30px 10px;
+    }
+    .counter-item{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    /*-----------------------------
+        """ Footer Styles """
+    ------------------------------*/
+    .footer{
+        margin-top: 50px;
+    }
+
+    .footer-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer-description{
+        font-size: 12px;
+    }
+    /* Social Icons */
+    .social-icon{
+        display: flex;
+    }
+    .fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
+        font-size: 15px;
+    }
+}
+/* Media End */
