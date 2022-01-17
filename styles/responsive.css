@@ -2,68 +2,86 @@
     """ Media Queary """
 ------------------------------*/
 
-/* Mobile or small Device */
-@media only screen and (max-width: 688px) {
-    #header{
+    /* Mobile or small Device */
+    @media only screen and (max-width: 688px) {
+    body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .container{
+        width:80%;
+    }
+    /*-----------------------------
+        """ Header Styles """
+    ------------------------------*/
+    #header{
         margin-top: 35px;
-        
     }
     .header-wrapper{
-        width: 100%;
-        display: block;
-        margin: 0 auto;
+        width: 162px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
+        align-items: none;
     }
+
     .header-title h1{
         font-size: 16px;
+        align-items: center;
         line-height: 24px;
     }
+
+    /* Nav Styles */
     nav{
         display: none;
     }
     /*-----------------------------
-    """ Section - 2 Styles """
+        """ Section - 1 Styles """
     ------------------------------*/
     .section-1{
-        display: flex;
+        width: 80%;
         flex-direction: column;
-        justify-content: center;
         margin-top: 22px;
     }
     .section-1-wrapper{
-        width: 670px;
-        display: flex;
+        width: 100%;
+        /* display: flex; */
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .section-1-left{
-        order: 2;
-    }
-    .section-1-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         order: 1;
     }
     .section-title{
+        width: 400px;
+        height: 78px;
         font-size: 28px;
         line-height: 42px;
         text-align: center;
+        margin-bottom: 15px;
     }
     .section-description{
+        width: 321px;
+        height: 65px;
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
         text-align: center;
+        margin-bottom: 20px;
     }
-    .main-button{
-        margin: 0 auto;
+    .br-inline{
+        display: none;
     }
     .section-1-right img{
         width: 257px;
-        height: 235px;
+        height: 257px;
+        margin-bottom: 14px;
     }
 
     /* Section - 2 */
@@ -75,12 +93,6 @@
     .section-2-wrapper{
         width: 100%;
     }
-    /* .section-2-items{
-        width: 275px;
-        height: 61px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    } */
     .section-2-items img{
         width: 65px;
     }
