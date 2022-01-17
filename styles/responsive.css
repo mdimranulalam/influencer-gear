@@ -28,14 +28,14 @@
         margin-top: 35px;
     }
     .header-wrapper{
-        width: 162px;
+        width: 300px;
         display: flex;
         justify-content: center;
         align-items: none;
     }
 
     .header-title h1{
-        font-size: 16px;
+        font-size: 26px;
         align-items: center;
         line-height: 24px;
     }
