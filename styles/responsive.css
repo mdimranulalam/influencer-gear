@@ -11,6 +11,13 @@
         align-content: center;
         align-items: center;
     }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
     .container{
         width:80%;
     }
@@ -118,7 +125,7 @@
     }
     .section-3-products{
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 15px 0;
+        grid-gap: 20px 0;
         margin-bottom: 32px;
     }
 
